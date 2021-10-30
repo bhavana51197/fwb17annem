@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Venkata Bhavana Annem' });
+  res.render('elephant', { title: 'Search Results' });
 });
 
 module.exports = router;
